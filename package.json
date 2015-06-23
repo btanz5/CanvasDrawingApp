@@ -1,0 +1,16 @@
+{
+  "name": "canvas_drawing_app",
+  "version": "1.0.0",
+  "description": "This app is intended to allow users to simultaneously draw on an html5 canvas in differnt colors",
+  "main": "jS/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "benTansey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "hogan-express": "^0.5.2",
+    "socket.io": "^1.3.5"
+  }
+}

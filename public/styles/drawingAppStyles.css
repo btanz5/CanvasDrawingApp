@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #B6B6B6;
+}
+.supportContainer{
+	width: 500px;
+	height: 100%;
+	margin: 10px auto;
+	padding: .5%;
+	background-color: #B5CAF5;
+	border: 1px solid;	
+	-webkit-box-shadow: 2px 2px 2px #ABABAB;
+        	box-shadow: 2px 2px 2px #ABABAB;	
+}
+#container{
+	width: 85%;
+	height: 700px;
+	background-image: url('../images/grayConstructionPaper.png');	
+	padding: 1%;
+	margin: 0 auto;
+	border: 3px solid;
+	-webkit-box-shadow: 15px 15px 15px #9F9F9F;
+	        box-shadow: 15px 15px 15px #9F9F9F;
+}
+#drawingCanvas{
+	width: 100%;	
+}

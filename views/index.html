@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Canvas Drawing App</title>
+	<link rel="stylesheet" href="../styles/drawingAppStyles.css">
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+	<script src='/socket.io/socket.io.js'></script>
+</head>
+<body>
+
+
+	<hgroup class="supportContainer">
+	<h3>Your browser needs to support canvas for this demo to work</h3>
+	<p>This is a simple HTML5 and JavaScript canvas app that is connected with web sockets to allow real time drawing with other people --Enjoy!</p>
+	</hgroup>
+
+	<div id='container'>
+		<canvas id='drawingCanvas'></canvas>
+	</div>
+	
+	<script type="text/javascript" src='../models/drawCanvas.js'></script>
+</body>
+</html>
